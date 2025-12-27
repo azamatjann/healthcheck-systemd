@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  healthcheck:
+    image: healthcheck:1.1
+    container_name: healthcheck
+    restart: unless-stopped
